@@ -36,7 +36,7 @@ class IURLValidator(Interface):
     Objects (really, a singleton) that implements this interface can perform one-time
     validation on URLs.
 
-    See https://github.com/NASA-PDS/pds-deep-archive/issues/102
+    See https://github.com/NASA-PDS/pds-deep-archive/issues/102 for more.
     """
 
     def validate(url):  # noqa: N805, B902
